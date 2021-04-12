@@ -8,13 +8,12 @@ export default function CurrentWeather(props) {
         axios
             .get(
                 `http://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
-                // `http://api.openweathermap.org/data/2.5/weather?q=delhi&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
             )
             .then((res) => {
                 setweather(res.data);
             });
     }, [props.city]);
-    console.log(Weather);
+    // console.log(Weather);
 
     var unixtime = Weather.dt;
     var s = new Date(unixtime * 1000).toLocaleDateString("en-US");
