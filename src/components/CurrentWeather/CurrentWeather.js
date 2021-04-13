@@ -7,7 +7,7 @@ export default function CurrentWeather(props) {
     useEffect(() => {
         axios
             .get(
-                `http://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
+                `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
             )
             .then((res) => {
                 setweather(res.data);
