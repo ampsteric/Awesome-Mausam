@@ -36,43 +36,42 @@ export default function CurrentWeather(props) {
                         </div>
                         <div className="col-md-6">
                             <div className="row">
-                                <div className="current-card-pn col-md-4">
-                                    <h2>Latitude</h2>
+                                <div className="current-card-pn col-md-3">
+                                    <h2>Latitude 🌐</h2>
                                     <h5> {Weather.coord.lat}</h5>
                                 </div>
-                                <div className="current-card-b col-md-4">
-                                    <h2>Longitude</h2>
+                                <div className="current-card-b col-md-3">
+                                    <h2>Longitude 🌐</h2>
                                     <h5> {Weather.coord.lon}</h5>
                                 </div>
-                                <div className="current-card-g col-md-4">
-                                    <h2>Weather</h2>
+                                <div className="current-card-g col-md-3">
+                                    <h2>Weather ⛅</h2>
                                     <h5> {Weather.weather[0].main}</h5>
                                 </div>
-                                <div className="current-card-p col-md-4">
-                                    <h2>Temp</h2>
+                                <div className="current-card-p col-md-3">
+                                    <h3>Temperature 🌡️</h3>
                                     <h5> {Weather.main.temp}</h5>
                                 </div>
-                                <div className="current-card-r col-md-4">
-                                    <h2>Latitude</h2>
-                                    <h5> {Weather.coord.lat}</h5>
-                                </div>
-                                <div className="current-card-b col-md-4">
-                                    <h2>pressure</h2>
+
+                                <div className="current-card-b col-md-3">
+                                    <h2>pressure 🧯</h2>
                                     <h5> {Weather.main.pressure}</h5>
                                 </div>
-                                <div className="current-card-g col-md-4">
-                                    <h2>Humidity</h2>
+                                <div className="current-card-g col-md-3">
+                                    <h2>Humidity 💦</h2>
                                     <h5> {Weather.main.humidity}</h5>
                                 </div>
-                                <div className="current-card-p col-md-4">
-                                    <h2>visibility</h2>
+                                <div className="current-card-p col-md-3">
+                                    <h2>visibility 👀</h2>
                                     <h5> {Weather.visibility}</h5>
                                 </div>
-                                <div className="current-card-r col-md-4">
-                                    <h2>Wind</h2>
+                                <div className="current-card-r col-md-3">
+                                    <h2>
+                                        Wind <br /> 🌫️
+                                    </h2>
                                     <h5> {Weather.wind.speed}</h5>
                                 </div>
-                                <div className="current-card-pn col-md-4">
+                                <div className="current-card-pn col-md-3">
                                     <h2>Date</h2>
                                     <h5> {s}</h5>
                                 </div>
