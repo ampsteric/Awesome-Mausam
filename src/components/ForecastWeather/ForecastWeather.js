@@ -7,7 +7,7 @@ export default function ForecastWeather(props) {
     useEffect(() => {
         axios
             .get(
-                `https://api.openweathermap.org/data/2.5/onecall?lat=21.2121&lon=81.3733&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
+                `https://api.openweathermap.org/data/2.5/onecall?lat=${props.lat}&lon=${props.lon}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
             )
             .then((res) => {
                 // console.log(res);

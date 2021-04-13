@@ -28,7 +28,7 @@ function App() {
             </div>
 
             <CurrentWeather city={City} />
-            <WeatherForecast />
+            {/* <WeatherForecast /> */}
         </div>
     );
 }

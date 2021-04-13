@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import dotenv from "dotenv";
+import Forecast from "../../components/ForecastWeather/ForecastWeather";
 import "./currentweather.css";
 export default function CurrentWeather(props) {
     const [Weather, setweather] = useState({});
@@ -90,6 +91,7 @@ export default function CurrentWeather(props) {
                             </div>
                         </div>
                     </div>
+                    <Forecast lat={Weather.coord.lat} lon={Weather.coord.lon} />
                 </div>
             )}
         </div>
