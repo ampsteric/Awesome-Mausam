@@ -1,6 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 #api_keys
 .env
+
+#netlify file
+./netlify.toml
 # dependencies
 /node_modules
 /.pnp
