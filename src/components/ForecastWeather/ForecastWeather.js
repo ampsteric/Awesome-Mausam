@@ -8,11 +8,13 @@ export default function ForecastWeather() {
                 `https://api.openweathermap.org/data/2.5/onecall?lat=21.2121&lon=81.3733&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
             )
             .then((res) => {
-                // console.log(res);
+                console.log(res);
                 setforecast(res.data);
             });
+        //FOR HINDI
         //    axios.get("https://api.openweathermap.org/data/2.5/onecall?lat=21.2121&lon=81.3733&appid=8b591ea1a74b11d0b5dc1ff3cf9b67af&lang=hi")
     }, []);
+
     return (
         <div>
             {Object.keys(forecast).length === 0 &&

@@ -6,12 +6,27 @@ function App() {
     const [City, Setcity] = useState("Delhi");
     return (
         <div className="App">
-            <input
-                onBlur={(e) => {
-                    Setcity(e.target.value);
-                }}
-            />
-            <button>Search</button>
+            <div class="input-group m-5">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                        🔎
+                    </span>
+                </div>
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter the name of Place.."
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                    onBlur={(e) => {
+                        Setcity(e.target.value);
+                    }}
+                />
+                <button type="button" class="btn btn-secondary ml-1">
+                    Search
+                </button>
+            </div>
+
             <CurrentWeather city={City} />
             <WeatherForecast />
         </div>

@@ -1,0 +1,57 @@
+.current .city-badge {
+    font-size: 80px;
+    color: tomato;
+    background-color: #212130;
+    display: block;
+    width: 50%;
+    text-align: left;
+}
+.current .country-badge {
+    margin-top: 2%;
+    font-size: 20px;
+    color: rgb(129, 255, 71);
+    background-color: #2e3021;
+    display: block;
+    width: 8%;
+}
+.current-card-b {
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    margin: 2% 1% !important;
+    background-color: #151d33;
+    color: #007bff;
+}
+.current-card-g {
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    margin: 2% 1% !important;
+    background-color: #182829;
+    color: #28a745;
+}
+.current-card-p {
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    margin: 2% 1% !important;
+    background-color: #230f41;
+    color: #775899;
+}
+.current-card-pn {
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    margin: 2% 1% !important;
+    background-color: #2e1e30;
+    color: #fb5581;
+}
+.current-card-r {
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    margin: 2% 1% !important;
+    background-color: #331427;
+    color: #ff073a;
+    width: 100%;
+}
