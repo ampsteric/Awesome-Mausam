@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./forecast.css";
 import "../CurrentWeather/currentweather.css";
-export default function ForecastWeather() {
+export default function ForecastWeather(props) {
     const [forecast, setforecast] = useState({});
     useEffect(() => {
         axios

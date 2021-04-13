@@ -1,12 +1,16 @@
 .current .city-badge {
-    font-size: 80px;
+    font-size: 5em !important;
+    float: left;
     color: tomato;
     background-color: #212130;
-    display: block;
-    width: 50%;
+    /* display: block; */
+    /* width: 50%; */
+    font-weight: 700;
+    white-space: pre-wrap;
     text-align: left;
 }
 .current .country-badge {
+    float: left;
     margin-top: 2%;
     font-size: 20px;
     color: #61e898;

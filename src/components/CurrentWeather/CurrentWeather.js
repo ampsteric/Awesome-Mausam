@@ -27,13 +27,26 @@ export default function CurrentWeather(props) {
                 <div className="container-fluid current">
                     <div className="row">
                         <div className="col-md-6">
-                            <span class="badge badge-dark city-badge">
-                                {Weather.name}
-                            </span>
+                            <p>
+                                <span class="city-badge">{Weather.name}</span>
+                            </p>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
                             <span class="badge badge-dark country-badge">
                                 {Weather.sys.country}
                             </span>
-                            <h1 style={{ fontSize: "150px", opacity: "0.09" }}>
+                            <br />
+                            <h1
+                                style={{
+                                    fontSize: "7em",
+                                    opacity: "0.09",
+                                    // fontWeight: "700",
+                                    marginTop: "5%",
+                                }}
+                            >
                                 {s}
                             </h1>
                         </div>

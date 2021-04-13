@@ -29,6 +29,10 @@ body {
     background-color: #1e1e30 !important;
     border: #161625;
     border-radius: 8px;
+    outline: 0;
+    color: #fb5581;
+    font-size: 30px;
+    font-weight: 700;
     /* box-shadow: 1px 1px 50px 10px #212121; */
 }
 .App-logo {
