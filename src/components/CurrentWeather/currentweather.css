@@ -9,11 +9,12 @@
 .current .country-badge {
     margin-top: 2%;
     font-size: 20px;
-    color: rgb(129, 255, 71);
+    color: #61e898;
     background-color: #2e3021;
-    display: block;
+    margin-right: 0 !important;
     width: 8%;
 }
+
 .current-card-b {
     border-radius: 8px;
     padding: auto;

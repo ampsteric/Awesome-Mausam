@@ -1,6 +1,16 @@
 .App {
     text-align: center;
 }
+.btn-submit {
+    background-color: #2e1e30;
+    color: #fb5581;
+    font-weight: 700;
+    padding: 2% 5%;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    margin-left: 1%;
+}
 body {
     background-color: #161625;
     /* background-color: #212121; */
@@ -8,6 +18,18 @@ body {
 }
 .input-group {
     width: 40% !important;
+}
+.input-group-text {
+    background-color: #1e1e30;
+    border: #1e1e30;
+}
+.input-group > .custom-file,
+.input-group > .custom-select,
+.input-group > .form-control {
+    background-color: #1e1e30 !important;
+    border: #161625;
+    border-radius: 8px;
+    /* box-shadow: 1px 1px 50px 10px #212121; */
 }
 .App-logo {
     height: 40vmin;

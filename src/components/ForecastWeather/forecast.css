@@ -1,0 +1,20 @@
+.forecast-card {
+    background-color: black;
+    color: #11ece5;
+    border-radius: 8px;
+    padding: 2% 0.5%;
+    text-align: left;
+    margin: 2% 1%;
+    /* width: 100px !; */
+}
+.country-badge {
+    margin-top: 2%;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(128, 128, 128);
+    display: block;
+    width: 40%;
+}
+.flexi {
+    justify-content: flex-end;
+}

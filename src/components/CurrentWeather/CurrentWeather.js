@@ -13,7 +13,7 @@ export default function CurrentWeather(props) {
                 setweather(res.data);
             });
     }, [props.city]);
-    console.log(Weather);
+    // console.log(Weather);
 
     var unixtime = Weather.dt;
     var s = new Date(unixtime * 1000).toLocaleDateString("en-US");
@@ -33,6 +33,9 @@ export default function CurrentWeather(props) {
                             <span class="badge badge-dark country-badge">
                                 {Weather.sys.country}
                             </span>
+                            <h1 style={{ fontSize: "150px", opacity: "0.09" }}>
+                                {s}
+                            </h1>
                         </div>
                         <div className="col-md-6">
                             <div className="row">
@@ -53,7 +56,7 @@ export default function CurrentWeather(props) {
                                     <h5> {Weather.main.temp}</h5>
                                 </div>
 
-                                <div className="current-card-b col-md-3">
+                                <div className="current-card-pn col-md-3">
                                     <h2>pressure 🧯</h2>
                                     <h5> {Weather.main.pressure}</h5>
                                 </div>
@@ -70,10 +73,6 @@ export default function CurrentWeather(props) {
                                         Wind <br /> 🌫️
                                     </h2>
                                     <h5> {Weather.wind.speed}</h5>
-                                </div>
-                                <div className="current-card-pn col-md-3">
-                                    <h2>Date</h2>
-                                    <h5> {s}</h5>
                                 </div>
                             </div>
                         </div>

@@ -22,7 +22,7 @@ function App() {
                         Setcity(e.target.value);
                     }}
                 />
-                <button type="button" class="btn btn-secondary ml-1">
+                <button type="button" class="btn-submit">
                     Search
                 </button>
             </div>
