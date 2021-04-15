@@ -14,7 +14,7 @@ export default function CurrentWeather(props) {
             .then((res) => {
                 setweather(res.data);
             });
-    }, [props.city]);
+    }, [props]);
     // console.log(Weather);
 
     var unixtime = Weather.dt;
@@ -96,7 +96,10 @@ export default function CurrentWeather(props) {
                             />
                         </div>
                         <div className="col-md-6">
-                            <ChartWeather />
+                            <ChartWeather
+                                lat={Weather.coord.lat}
+                                lon={Weather.coord.lon}
+                            />
                         </div>
                     </div>
                 </div>
