@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
 import CurrentWeather from "./components/CurrentWeather/CurrentWeather";
-import WeatherForecast from "./components/ForecastWeather/ForecastWeather";
+import Chart from "./components/ChartWeather/ChartWeather";
 function App() {
     const [City, Setcity] = useState("Delhi");
     return (
         <div className="App">
-            <div class="input-group m-5">
+            {/* <div class="input-group m-5">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">
                         🔎
@@ -27,8 +27,8 @@ function App() {
                 </button>
             </div>
 
-            <CurrentWeather city={City} />
-            {/* <WeatherForecast /> */}
+            <CurrentWeather city={City} /> */}
+            <Chart />
         </div>
     );
 }
