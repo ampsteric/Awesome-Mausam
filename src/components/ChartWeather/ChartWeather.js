@@ -95,13 +95,13 @@ export default function App() {
                 <Bar dataKey="amt" fill="#22cf9d" />
             </BarChart> */}
             <AreaChart
-                width={1000}
-                height={700}
+                width={500}
+                height={300}
                 data={data}
                 margin={{
-                    top: 200,
+                    top: 50,
                     right: 0,
-                    left: 300,
+                    left: 10,
                     bottom: 0,
                 }}
             >

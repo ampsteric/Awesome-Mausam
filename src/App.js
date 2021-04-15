@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 import CurrentWeather from "./components/CurrentWeather/CurrentWeather";
-import Chart from "./components/ChartWeather/ChartWeather";
 function App() {
     const [City, Setcity] = useState("Delhi");
     return (
@@ -28,7 +27,6 @@ function App() {
             </div>
 
             <CurrentWeather city={City} />
-            <Chart />
         </div>
     );
 }

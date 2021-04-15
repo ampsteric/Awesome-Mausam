@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import dotenv from "dotenv";
 import Forecast from "../../components/ForecastWeather/ForecastWeather";
+import ChartWeather from "../ChartWeather/ChartWeather";
 import "./currentweather.css";
 export default function CurrentWeather(props) {
     const [Weather, setweather] = useState({});
@@ -94,7 +95,9 @@ export default function CurrentWeather(props) {
                                 lon={Weather.coord.lon}
                             />
                         </div>
-                        <div className="col-md-6"></div>
+                        <div className="col-md-6">
+                            <ChartWeather />
+                        </div>
                     </div>
                 </div>
             )}
