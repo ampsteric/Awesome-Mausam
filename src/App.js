@@ -6,7 +6,7 @@ function App() {
     const [City, Setcity] = useState("Delhi");
     return (
         <div className="App">
-            {/* <div class="input-group m-5">
+            <div class="input-group m-5">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">
                         🔎
@@ -27,7 +27,7 @@ function App() {
                 </button>
             </div>
 
-            <CurrentWeather city={City} /> */}
+            <CurrentWeather city={City} />
             <Chart />
         </div>
     );

@@ -49,7 +49,7 @@ export default function App() {
 
     return (
         <div>
-            <LineChart
+            {/* <LineChart
                 width={500}
                 height={300}
                 data={data}
@@ -73,28 +73,7 @@ export default function App() {
                 />
                 <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
             </LineChart>
-            <AreaChart
-                width={500}
-                height={400}
-                data={data}
-                margin={{
-                    top: 10,
-                    right: 30,
-                    left: 0,
-                    bottom: 0,
-                }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Area
-                    type="monotone"
-                    dataKey="pv"
-                    stroke="#8884d8"
-                    fill="#8884d8"
-                />
-            </AreaChart>
+
             <BarChart
                 width={500}
                 height={300}
@@ -114,15 +93,15 @@ export default function App() {
                 <Bar dataKey="pv" fill="#8884d8" />
                 <Bar dataKey="uv" fill="#82ca9d" />
                 <Bar dataKey="amt" fill="#22cf9d" />
-            </BarChart>
+            </BarChart> */}
             <AreaChart
-                width={500}
-                height={400}
+                width={1000}
+                height={700}
                 data={data}
                 margin={{
-                    top: 10,
-                    right: 30,
-                    left: 0,
+                    top: 200,
+                    right: 0,
+                    left: 300,
                     bottom: 0,
                 }}
             >

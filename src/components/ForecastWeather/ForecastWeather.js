@@ -23,6 +23,7 @@ export default function ForecastWeather(props) {
         else if (s[0] == "l") return "🌧️";
         else if (s[0] == "b") return "⛈️";
         else if (s[0] == "f") return "🌤️";
+        else if (s[0] == "o") return "🌤️";
     }
 
     const arr = ["r", "b", "g", "p", "pn"];
@@ -51,9 +52,9 @@ export default function ForecastWeather(props) {
                                 >
                                     <div className="row">
                                         <div className="col-md-6">
-                                            <h1 style={{ opacity: "0.5" }}>
+                                            <h6 style={{ opacity: "0.5" }}>
                                                 {s}
-                                            </h1>
+                                            </h6>
                                         </div>
                                         <div className="col-md-6" align="right">
                                             <h2>
