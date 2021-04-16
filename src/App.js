@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import CurrentWeather from "./components/CurrentWeather/CurrentWeather";
+import Air from "./components/ForecastAirpopulation/ForecastAirpop";
 function App() {
     const [City, Setcity] = useState("Delhi");
     return (
@@ -27,6 +28,7 @@ function App() {
             </div>
 
             <CurrentWeather city={City} />
+            <Air />
         </div>
     );
 }
