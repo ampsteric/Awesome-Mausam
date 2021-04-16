@@ -20,7 +20,7 @@ export default function CurrentAirpop() {
     useEffect(() => {
         axios
             .get(
-                `http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=50&lon=50&appid=8b591ea1a74b11d0b5dc1ff3cf9b67af`
+                `https://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=50&lon=50&appid=8b591ea1a74b11d0b5dc1ff3cf9b67af`
                 // `http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=21.2121&lon=81.3733&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
             )
             .then((res) => {
