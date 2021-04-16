@@ -56,13 +56,13 @@ export default function CurrentAirpop() {
             <div>
                 {/* {console.log(data)} */}
                 <LineChart
-                    width={1500}
-                    height={1000}
+                    width={1200}
+                    height={700}
                     data={data}
                     margin={{
                         top: 250,
                         right: 10,
-                        left: 300,
+                        left: 350,
                         bottom: 5,
                     }}
                 >
