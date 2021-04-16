@@ -60,3 +60,31 @@
     color: #ff073a;
     width: 100%;
 }
+.current-card-grey {
+    border-radius: 8px;
+    padding: auto;
+    text-align: center;
+    margin: 2% 1% !important;
+    background-color: #331427;
+    color: #ff073a;
+    width: 100%;
+}
+.current-card-grey {
+    background-color: #161625;
+}
+.current-card-grey:hover {
+    color: #6c757d !important;
+    background-color: #1c1c2b;
+}
+.btn-danger {
+    background-color: #1c1c2b !important;
+    color: #527570 !important;
+    border: transparent;
+    font-size: 10px;
+    margin-top: 2%;
+    width: 60%;
+}
+.extra-long {
+    height: 250px;
+    padding-top: 10%;
+}

@@ -6,6 +6,30 @@ import ChartWeather from "../ChartWeather/ChartWeather";
 import "./currentweather.css";
 export default function CurrentWeather(props) {
     const [Weather, setweather] = useState({});
+    const [data, setData] = useState([{}]);
+
+    useEffect(() => {
+        // setData(0);
+        axios
+            .get(
+                `http://api.openweathermap.org/data/2.5/air_pollution?lat=21.2121&lon=81.3733&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
+            )
+            .then((res) => {
+                var unixtime = res.data.list[0].dt;
+                var s = new Date(unixtime * 1000).toLocaleDateString("en-US");
+                setData([
+                    {
+                        pv: res.data.list[0].components.co,
+                        rv: res.data.list[0].components.no2,
+                        sv: res.data.list[0].components.o3,
+                        amt: res.data.list[0].components.so2,
+                        uv: res.data.list[0].components.pm2_5,
+                    },
+                ]);
+            });
+        //FOR HINDI
+        //    axios.get("https://api.openweathermap.org/data/2.5/onecall?lat=21.2121&lon=81.3733&appid=8b591ea1a74b11d0b5dc1ff3cf9b67af&lang=hi")
+    }, []);
     useEffect(() => {
         axios
             .get(
@@ -15,8 +39,9 @@ export default function CurrentWeather(props) {
                 setweather(res.data);
             });
     }, [props]);
-    // console.log(Weather);
 
+    // console.log(Weather);
+    // console.log(data[0].tv);
     var unixtime = Weather.dt;
     var s = new Date(unixtime * 1000).toLocaleDateString("en-US");
 
@@ -29,16 +54,84 @@ export default function CurrentWeather(props) {
                 <div className="container-fluid current">
                     <div className="row">
                         <div className="col-md-6">
-                            <p>
-                                <span class="city-badge">{Weather.name}</span>
-                            </p>
-                            <br />
+                            <div className="row">
+                                <div className="col-12">
+                                    <div className="row">
+                                        <div className="col-6">
+                                            <p>
+                                                <span class="city-badge">
+                                                    {Weather.name}
+                                                </span>
+                                            </p>
+                                            <br />
+                                            <span class="badge badge-dark country-badge">
+                                                {Weather.sys.country}
+                                            </span>
+                                        </div>
+                                        <div className="col-6">
+                                            <button
+                                                type="button"
+                                                class="btn btn-danger"
+                                            >
+                                                The statistics shown <br />
+                                                are as per source. we dont
+                                                confirm them
+                                            </button>
+                                            <br />
+                                            <button
+                                                type="button"
+                                                class="btn btn-danger"
+                                            >
+                                                The statistics shown <br />
+                                                are fetched from openweathermap
+                                                API.
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12">
+                                    <div className="row">
+                                        <div
+                                            className="current-card-grey col-md-2 extra-long"
+                                            style={{ color: "#FB5581" }}
+                                        >
+                                            <h6>O₃</h6>
+                                            <h6> {data[0].sv}</h6>
+                                        </div>
+                                        <div
+                                            className="current-card-grey col-md-2 extra-long"
+                                            style={{ color: "#27A140" }}
+                                        >
+                                            <h6>NO₂ </h6>
+                                            <h6> {data[0].rv}</h6>
+                                        </div>
+                                        <div
+                                            className="current-card-grey col-md-2 extra-long"
+                                            style={{ color: "#775899" }}
+                                        >
+                                            <h6>CO</h6>
+                                            <h6> {data[0].pv}</h6>
+                                        </div>
+                                        <div
+                                            className="current-card-grey col-md-2 extra-long"
+                                            style={{ color: "#007BFF" }}
+                                        >
+                                            <h6>PM 2.5</h6>
+                                            <h6> {data[0].uv}</h6>
+                                        </div>
+                                        <div
+                                            className="current-card-grey col-md-2 extra-long"
+                                            style={{ color: "#DE073A" }}
+                                        >
+                                            <h6>SO₂</h6>
+                                            <h6> {data[0].amt}</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <span class="badge badge-dark country-badge">
-                                {Weather.sys.country}
-                            </span>
-                            <br />
-                            <h1
+                            {/* <br /> */}
+                            {/* <h1
                                 style={{
                                     fontSize: "7em",
                                     opacity: "0.09",
@@ -47,7 +140,7 @@ export default function CurrentWeather(props) {
                                 }}
                             >
                                 {s}
-                            </h1>
+                            </h1> */}
                         </div>
                         <div className="col-md-6">
                             <div className="row">

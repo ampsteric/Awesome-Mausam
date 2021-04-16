@@ -4,6 +4,7 @@ import CurrentWeather from "./components/CurrentWeather/CurrentWeather";
 import Air from "./components/ForecastAirpopulation/ForecastAirpop";
 function App() {
     const [City, Setcity] = useState("Delhi");
+
     return (
         <div className="App">
             <div class="input-group m-5">

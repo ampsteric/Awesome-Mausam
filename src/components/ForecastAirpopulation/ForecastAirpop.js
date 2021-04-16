@@ -54,10 +54,10 @@ export default function CurrentAirpop() {
     return (
         <div>
             <div>
-                {console.log(data)}
+                {/* {console.log(data)} */}
                 <LineChart
                     width={1000}
-                    height={300}
+                    height={600}
                     data={data}
                     margin={{
                         top: 5,
@@ -75,14 +75,45 @@ export default function CurrentAirpop() {
                         type="monotone"
                         dataKey="pv"
                         stroke="#F2073A"
-                        activeDot={{ r: 10 }}
+                        // activeDot={{ r: 10 }}
+                        dot={false}
                     />
-                    <Line type="monotone" dataKey="uv" stroke="#007BFF" />
-                    <Line type="monotone" dataKey="qv" stroke="#007BFF" />
-                    <Line type="monotone" dataKey="rv" stroke="#007BFF" />
-                    <Line type="monotone" dataKey="sv" stroke="#007BFF" />
-                    <Line type="monotone" dataKey="tv" stroke="#007BFF" />
-                    <Line type="monotone" dataKey="amt" stroke="#007BFF" />
+                    <Line
+                        type="monotone"
+                        dataKey="uv"
+                        stroke="#28A745"
+                        dot={false}
+                    />
+                    <Line
+                        type="monotone"
+                        dataKey="qv"
+                        stroke="##FB5581"
+                        dot={false}
+                    />
+                    <Line
+                        type="monotone"
+                        dataKey="rv"
+                        stroke="#007BFF"
+                        dot={false}
+                    />
+                    <Line
+                        type="monotone"
+                        dataKey="sv"
+                        stroke="#fdd401"
+                        dot={false}
+                    />
+                    <Line
+                        type="monotone"
+                        dataKey="tv"
+                        stroke="#ab7cec"
+                        dot={false}
+                    />
+                    <Line
+                        type="monotone"
+                        dataKey="amt"
+                        stroke="#fff"
+                        dot={false}
+                    />
                 </LineChart>
             </div>
         </div>

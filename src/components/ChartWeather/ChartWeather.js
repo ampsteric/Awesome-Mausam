@@ -72,7 +72,7 @@ export default function App(props) {
                     stroke="#F2073A"
                     activeDot={{ r: 10 }}
                 />
-                <Line type="monotone" dataKey="uv" stroke="#007BFF" />
+                <Line type="basisClosed" dataKey="uv" stroke="#007BFF" />
             </LineChart>
 
             <BarChart
