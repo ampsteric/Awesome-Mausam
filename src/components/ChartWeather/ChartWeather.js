@@ -19,13 +19,14 @@ import axios from "axios";
 export default function App(props) {
     const [data, setData] = useState([{}]);
     useEffect(() => {
-        // setData(0);
+        // setData(null);
         axios
             .get(
                 `https://api.openweathermap.org/data/2.5/onecall?lat=${props.lat}&lon=${props.lon}3&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
             )
             .then((res) => {
                 // console.log(res);
+                // setData({});
                 res.data.daily.map((day) => {
                     var unixtime = day.dt;
                     var s = new Date(unixtime * 1000).toLocaleDateString(
@@ -46,7 +47,7 @@ export default function App(props) {
             });
         //FOR HINDI
         //    axios.get("https://api.openweathermap.org/data/2.5/onecall?lat=21.2121&lon=81.3733&appid=8b591ea1a74b11d0b5dc1ff3cf9b67af&lang=hi")
-    }, [props]);
+    }, [props.lat]);
 
     return (
         <div>
@@ -70,9 +71,15 @@ export default function App(props) {
                     type="monotone"
                     dataKey="pv"
                     stroke="#F2073A"
-                    activeDot={{ r: 10 }}
+                    // activeDot={{ r: 10 }}
+                    dot={false}
                 />
-                <Line type="basisClosed" dataKey="uv" stroke="#007BFF" />
+                <Line
+                    type="basisClosed"
+                    dataKey="uv"
+                    stroke="#007BFF"
+                    dot={false}
+                />
             </LineChart>
 
             <BarChart

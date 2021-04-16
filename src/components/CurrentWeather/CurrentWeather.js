@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import Forecast from "../../components/ForecastWeather/ForecastWeather";
 import ChartWeather from "../ChartWeather/ChartWeather";
 import "./currentweather.css";
+import { Link } from "react-router-dom";
 export default function CurrentWeather(props) {
     const [Weather, setweather] = useState({});
     const [data, setData] = useState([{}]);
@@ -69,22 +70,23 @@ export default function CurrentWeather(props) {
                                             </span>
                                         </div>
                                         <div className="col-6">
-                                            <button
-                                                type="button"
-                                                class="btn btn-danger"
-                                            >
-                                                The statistics shown <br />
-                                                are as per source. we dont
-                                                confirm them
-                                            </button>
+                                            <Link to="/airpollution">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-danger"
+                                                >
+                                                    Get Air population
+                                                    statistics
+                                                </button>
+                                            </Link>
                                             <br />
                                             <button
                                                 type="button"
                                                 class="btn btn-danger"
                                             >
-                                                The statistics shown <br />
+                                                ⚠️The statistics shown <br />
                                                 are fetched from openweathermap
-                                                API.
+                                                API.We dont confirm them.
                                             </button>
                                         </div>
                                     </div>
