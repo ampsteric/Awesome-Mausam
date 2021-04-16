@@ -83,6 +83,15 @@
     font-size: 12px;
     margin-top: 2%;
     width: 70%;
+    cursor: crosshair !important;
+}
+.btn-yellow {
+    background-color: #42361f !important;
+    color: #f57b14 !important;
+    border: transparent;
+    font-size: 12px;
+    margin-top: 2%;
+    width: 70%;
 }
 .extra-long {
     height: 250px;

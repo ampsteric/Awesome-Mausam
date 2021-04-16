@@ -73,7 +73,7 @@ export default function CurrentWeather(props) {
                                             <Link to="/airpollution">
                                                 <button
                                                     type="button"
-                                                    class="btn btn-danger"
+                                                    class="btn btn-yellow"
                                                 >
                                                     Get Air population
                                                     statistics
