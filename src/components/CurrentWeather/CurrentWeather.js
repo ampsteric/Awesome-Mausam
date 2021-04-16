@@ -86,7 +86,9 @@ export default function CurrentWeather(props) {
                                             >
                                                 ⚠️The statistics shown <br />
                                                 are fetched from openweathermap
-                                                API.We dont confirm them.
+                                                API.
+                                                <br />
+                                                We dont confirm them.
                                             </button>
                                         </div>
                                     </div>
