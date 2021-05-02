@@ -1,11 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import CurrentWeather from "./components/CurrentWeather/CurrentWeather";
 import Air from "./components/ForecastAirpopulation/ForecastAirpop";
+import GetLocation from "./components/GetLocation/GetLocation";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
     const [City, Setcity] = useState("Delhi");
-
+    const [lat, setlat] = useState();
+    const [long, setlong] = useState();
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition(
+            function (position) {
+                // console.log(position.coords.latitude);
+                setlat(position.coords.latitude);
+                setlong(position.coords.longitude);
+            },
+            function (error) {
+                console.error(
+                    "Error Code = " + error.code + " - " + error.message
+                );
+            }
+        );
+    }, []);
     return (
         <div className="App">
             <Router>
@@ -32,6 +48,9 @@ function App() {
                     </div>
 
                     <CurrentWeather city={City} />
+                </Route>
+                <Route path="/get_location" exact>
+                    <GetLocation lat={lat} long={long} />
                 </Route>
                 <Route path="/airpollution" exact={true}>
                     <Air />

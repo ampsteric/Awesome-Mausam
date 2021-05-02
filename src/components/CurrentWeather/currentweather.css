@@ -1,5 +1,5 @@
 .current .city-badge {
-    font-size: 20px !important;
+    font-size: 50px !important;
     float: left;
     color: tomato;
     background-color: #212130;
@@ -12,7 +12,7 @@
 .current .country-badge {
     float: left;
     margin-top: 2%;
-    font-size: 10px;
+    font-size: 15px;
     color: #61e898;
     background-color: transparent;
     margin-right: 0 !important;
@@ -90,6 +90,14 @@
     color: #f57b14 !important;
     border: transparent;
     font-size: 12px;
+    margin-top: 2%;
+    width: 70%;
+}
+.btn-white {
+    background-color: rgb(233, 217, 217) !important;
+    color: #212121 !important;
+    border: transparent;
+    font-size: 20px;
     margin-top: 2%;
     width: 70%;
 }

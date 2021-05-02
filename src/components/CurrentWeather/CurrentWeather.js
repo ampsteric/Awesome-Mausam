@@ -70,15 +70,26 @@ export default function CurrentWeather(props) {
                                             </span>
                                         </div>
                                         <div className="col-6">
+                                            <Link to="/get_location">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-white"
+                                                >
+                                                    📍 Let us detect your
+                                                    location.
+                                                </button>
+                                            </Link>
+                                            <br />
                                             <Link to="/airpollution">
                                                 <button
                                                     type="button"
                                                     class="btn btn-yellow"
                                                 >
                                                     Get Air population
-                                                    statistics
+                                                    statistics.
                                                 </button>
                                             </Link>
+
                                             <br />
                                             <button
                                                 type="button"
@@ -104,14 +115,20 @@ export default function CurrentWeather(props) {
                                         </div>
                                         <div
                                             className="current-card-grey col-md-2 extra-long"
-                                            style={{ color: "#27A140" }}
+                                            style={{
+                                                color: "#27A140",
+                                            }}
                                         >
                                             <h6>NO₂ </h6>
                                             <h6> {data[0].rv}</h6>
                                         </div>
                                         <div
                                             className="current-card-grey col-md-2 extra-long"
-                                            style={{ color: "#775899" }}
+                                            style={{
+                                                color: "#775899",
+                                                backgroundColor: "#1c1c2b",
+                                                color: "#6c757d",
+                                            }}
                                         >
                                             <h6>CO</h6>
                                             <h6> {data[0].pv}</h6>
@@ -133,18 +150,6 @@ export default function CurrentWeather(props) {
                                     </div>
                                 </div>
                             </div>
-
-                            {/* <br /> */}
-                            {/* <h1
-                                style={{
-                                    fontSize: "7em",
-                                    opacity: "0.09",
-                                    // fontWeight: "700",
-                                    marginTop: "5%",
-                                }}
-                            >
-                                {s}
-                            </h1> */}
                         </div>
                         <div className="col-md-6">
                             <div className="row">
