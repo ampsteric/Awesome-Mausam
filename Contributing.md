@@ -1,6 +1,5 @@
 # Contributing to Awesome-Mausam
 First off, thanks for taking the time to contribute! We love your input💜. We want to make contributing to this project as easy and transparent as possible, whether it's:
-it is
 
 - Reporting a bug
 - Discussing the current state of the code
