@@ -44,6 +44,12 @@ port:3000
  <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
  <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
  </div>
+ 
+ ## PREVIEW:
+ 
+ ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/awesome1.gif)
+ ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/awesome3.gif)
+ ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/chrome-capture%20(2).gif)
 
 ## CONTRIBUTIONS:
 
