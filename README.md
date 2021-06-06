@@ -55,5 +55,5 @@ port:3000
 
 When contributing to this repository, please discuss the change you want to make via issue, email or any other method with the owners of this repository before making the change.
 
-## FOUND A BUG? Missing a specific feature?
+## Found a Bug? Missing a specific feature?
 Feel free to file a new issue with a respective title and description on the repository. If you already found a solution to your problem, we would love to review your pull request! Have a look at our contribution guidelines to find out about our coding standards.
