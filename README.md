@@ -47,9 +47,8 @@ port:3000
  
  ## PREVIEW:
  
- ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/awesome1.gif)
  ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/awesome3.gif)
- ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/chrome-capture%20(2).gif)
+ ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/awesome1.gif)
 
 ## CONTRIBUTIONS:
 
