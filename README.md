@@ -47,6 +47,7 @@ port:3000
  
  ## PREVIEW:
  
+ ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/awesome.gif)
  ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/awesome3.gif)
  ![](https://github.com/ampsteric/Awesome-Mausam/blob/master/awesome1.gif)
 
