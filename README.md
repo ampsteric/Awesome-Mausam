@@ -1,7 +1,7 @@
 <h1 align="center"><b> TEAM AWESOME MAUSAM </b></h1>
 <p align="center">
     <a href="" target="_blank">
-        <img width="20%" height="10%" src="Awesome-Mausam.png" alt="">
+        <img width="80%" height="10%" src="Awesome-Mausam.png" alt="">
     </a>
 </p>
 
