@@ -85,7 +85,7 @@ Feel free to file a new issue with a respective title and description on the rep
 
 </td>
    
-   <td align="center"><a href="https://github.com/ujjwal63"><img src="/image/photo.JPG" width="210px;" height="230px;"  alt=""/><br /><sub><b>UJJWAL GUPTA</b></sub></a><br />
+   <td align="center"><a href="https://github.com/ujjwal63"><img src="/image/photo.JPG" width="230px;" height="230px;"  alt=""/><br /><sub><b>UJJWAL GUPTA</b></sub></a><br />
 <p align="center">
     
    <a href="https://www.linkedin.com/in/gupta--ujjwal/" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
