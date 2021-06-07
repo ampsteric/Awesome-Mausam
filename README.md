@@ -65,7 +65,16 @@ Feel free to file a new issue with a respective title and description on the rep
 </br>
 
 <table>
-  <tr>      
+  <tr>
+      <td align="center"><a href="https://github.com/ampsteric"><img src="/images/shashwat.png" width="240px"; height="230px;" alt=""/><br /><sub><b>SHASHWAT MISHRA</b></sub></a><br />
+<p align="center">
+   
+   <a href="https://www.linkedin.com/in/shashwat-mishra-699bab194/" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
+    <a href="mailto:ampsteric@gmail.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
+    <a href="http://shashwat-mishra.surge.sh/" alt="My site"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/external-link-line.svg"></a>
+  </p>
+</td>
+      
    <td align="center"><a href="https://github.com/AruneshS"><img src="/images/60046892.jpg" width="270px;" height="230px;" alt=""/><br /><sub><b>ARUNESH SARMAH</b></sub></a><br />
     <p align="center">
    
@@ -76,23 +85,14 @@ Feel free to file a new issue with a respective title and description on the rep
 
 </td>
    
-   <td align="center"><a href="https://github.com/Reeti1605"><img src="/images/WhatsApp Image 2020-10-09 at 1.25.32 PM.jpeg" width="210px;" height="230px;"  alt=""/><br /><sub><b>REETI JHA</b></sub></a><br />
+   <td align="center"><a href="https://github.com/Reeti1605"><img src="/images/WhatsApp Image 2020-10-09 at 1.25.32 PM.jpeg" width="210px;" height="230px;"  alt=""/><br /><sub><b>UJJWAL GUPTA</b></sub></a><br />
 <p align="center">
     
    <a href="https://www.linkedin.com/in/reeti-jha-9672691b4/" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
     <a href="mailto:jha.reeti@gmail.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
     <a href="https://github.com/Reeti1605/Webportfolio" alt="My site"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/external-link-line.svg"></a>
   </p>
-</td>
-   
-   <td align="center"><a href="https://github.com/ampsteric"><img src="/images/shashwat.png" width="240px"; height="230px;" alt=""/><br /><sub><b>SHASHWAT MISHRA</b></sub></a><br />
-<p align="center">
-   
-   <a href="https://www.linkedin.com/in/shashwat-mishra-699bab194/" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
-    <a href="mailto:ampsteric@gmail.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
-    <a href="http://shashwat-mishra.surge.sh/" alt="My site"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/external-link-line.svg"></a>
-  </p>
-</td>
+      </td>
     </tr>
     </table>
 
