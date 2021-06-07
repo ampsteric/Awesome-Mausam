@@ -59,7 +59,7 @@ When contributing to this repository, please discuss the change you want to make
 Feel free to file a new issue with a respective title and description on the repository. If you already found a solution to your problem, we would love to review your pull request! Have a look at our contribution guidelines to find out about our coding standards.
 
 <div align="center">
-    <p text align="center">"✨ All Contributors ✨"</p>
+    <p text align="center" color="blue">✨ All Contributors ✨</p>
  </div>
 
 </br>
