@@ -65,15 +65,7 @@ Feel free to file a new issue with a respective title and description on the rep
 </br>
 
 <table>
-  <tr>
-       <td align="center"><a href="https://github.com/AnanyaNegi"><img src="/images/ananya.jpeg" width="210px;" height="230px;" alt=""/><br /><sub><b>ANANYA NEGI</b></sub></a><br /><p align="center">
-    
-   <a href="https://www.linkedin.com/in/ananya-negi-42922018a" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
-    <a href="mailto:ananya4negi@gmail.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
-    <a href="https://medium.com/@ananya4negi" alt="My site"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/external-link-line.svg"></a>
-  </p>
-</td>
-      
+  <tr>      
    <td align="center"><a href="https://github.com/yadvi12"><img src="/images/60046892.jpg" width="270px;" height="230px;" alt=""/><br /><sub><b>YADVI BHALLA</b></sub></a><br />
     <p align="center">
    
