@@ -71,8 +71,7 @@ Feel free to file a new issue with a respective title and description on the rep
    
    <a href="https://www.linkedin.com/in/shashwat-mishra-699bab194/" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
     <a href="mailto:ampsteric@gmail.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
-    <a href="http://shashwat-mishra.surge.sh/" alt="My site"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/external-link-line.svg"></a>
-  </p>
+    </p>
 </td>
       
    <td align="center"><a href="https://github.com/AruneshS"><img src="/image/arunesh.jpeg" width="230px;" height="230px;" alt=""/><br /><sub><b>ARUNESH SARMAH</b></sub></a><br />
@@ -80,8 +79,7 @@ Feel free to file a new issue with a respective title and description on the rep
    
    <a href="https://www.linkedin.com/in/arunesh-sarma-79b57aab" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
     <a href="mailto:arutuhin@gmail.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
-    <a href="https://medium.com/@iivday21" alt="My site"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/external-link-line.svg"></a>
-  </p>
+    </p>
 
 </td>
    
@@ -90,7 +88,6 @@ Feel free to file a new issue with a respective title and description on the rep
     
    <a href="https://www.linkedin.com/in/gupta--ujjwal/" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
     <a href="mailto:ujjwalgupta0611@gmail.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
-    
   </p>
       </td>
     </tr>
