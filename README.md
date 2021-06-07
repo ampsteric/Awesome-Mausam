@@ -75,7 +75,7 @@ Feel free to file a new issue with a respective title and description on the rep
   </p>
 </td>
       
-   <td align="center"><a href="https://github.com/AruneshS"><img src="/image/arunesh.jpeg" width="270px;" height="230px;" alt=""/><br /><sub><b>ARUNESH SARMAH</b></sub></a><br />
+   <td align="center"><a href="https://github.com/AruneshS"><img src="/image/arunesh.jpeg" width="230px;" height="230px;" alt=""/><br /><sub><b>ARUNESH SARMAH</b></sub></a><br />
     <p align="center">
    
    <a href="https://www.linkedin.com/in/arunesh-sarma-79b57aab" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
